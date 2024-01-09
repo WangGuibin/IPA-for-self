@@ -1,5 +1,7 @@
 {
     "name": "CoderWGB's AppSource",
+    "message": "supported for easy sign or TrollStore enjoy~",
+    "sourceicon": "https://cdn.jsdelivr.net/gh/WangGuibin/MyFilesRepo/images/20210614114348.png",
     "identifier": "com.coderwgb.ipaApps",
     "sourceURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/ipa.json",
     "apps": [
@@ -13,6 +15,42 @@
             "developerName": "",
             "localizedDescription": "",
             "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/ChangeAppLogo.png"
+        },
+        {
+            "name": "ProxyPin-Ios",
+            "bundleIdentifier": "com.proxy.pin",
+            "version": "1.0.7",
+            "versionDate": "2024-01-09",
+            "versionDescription": "",
+            "size": 512,
+            "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/ProxyPin-Ios.ipa",
+            "developerName": "",
+            "localizedDescription": "",
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/ProxyPin-Ios.png"
+        },
+        {
+            "name": "Shadowrocket_2.2.44",
+            "bundleIdentifier": "com.liguangming.Shadowrocket",
+            "version": "2.2.44",
+            "versionDate": "2024-01-09",
+            "versionDescription": "",
+            "size": 448,
+            "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/Shadowrocket_2.2.44.ipa",
+            "developerName": "",
+            "localizedDescription": "",
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/Shadowrocket_2.2.44.png"
+        },
+        {
+            "name": "ipaDownloadTool-2.1.1",
+            "bundleIdentifier": "cn.zxlee.IpaDownloadTool",
+            "version": "2.1.1",
+            "versionDate": "2024-01-09",
+            "versionDescription": "",
+            "size": 480,
+            "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/ipaDownloadTool-2.1.1.ipa",
+            "developerName": "",
+            "localizedDescription": "",
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/ipaDownloadTool-2.1.1.png"
         }
     ]
 }
