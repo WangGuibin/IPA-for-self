@@ -14,3 +14,8 @@ sh ipa ipaParse.sh xxx.ipa
 sh merge.sh
 ```
 
+订阅源
+
+```bash
+https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/ipa.json
+```
