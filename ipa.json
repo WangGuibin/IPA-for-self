@@ -1,0 +1,18 @@
+{
+    "name": "CoderWGB's AppSource",
+    "identifier": "com.coderwgb.ipaApps",
+    "sourceURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/ipa.json",
+    "apps": [
+        {
+            "name": "ChangeAppLogo",
+            "bundleIdentifier": "com.coderwgb.ios",
+            "version": "1.0",
+            "versionDate": "2024-01-09",
+            "size": 1248,
+            "downloadURL": "<IPA URL>",
+            "developerName": "",
+            "localizedDescription": "",
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/ChangeAppLogo.png"
+        }
+    ]
+}
