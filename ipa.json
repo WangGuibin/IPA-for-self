@@ -59,6 +59,18 @@
             "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/WiFiList.png"
         },
         {
+            "name": "OneClick-2.5.0",
+            "bundleIdentifier": "earth.oneclick",
+            "version": "2.5.0",
+            "versionDate": "2024-01-17",
+            "versionDescription": "iOS supercharger for TrollStore.",
+            "size": 7308393,
+            "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/OneClick-2.5.0.ipa",
+            "developerName": "CoderWGB",
+            "localizedDescription": "Generate electricity for love \u2764",
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/OneClick-2.5.0.png"
+        },
+        {
             "name": "YouTube_19.01.1",
             "bundleIdentifier": "com.google.ios.youtube",
             "version": "19.01.1",
@@ -297,6 +309,18 @@
             "developerName": "CoderWGB",
             "localizedDescription": "Generate electricity for love \u2764",
             "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/Cnblogs_1.0.8.png"
+        },
+        {
+            "name": "jjyd_2.0.1",
+            "bundleIdentifier": "com.app.parsingbook",
+            "version": "2.0.1",
+            "versionDate": "2024-01-17",
+            "versionDescription": "iOS supercharger for TrollStore.",
+            "size": 39555835,
+            "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/jjyd_2.0.1.ipa",
+            "developerName": "CoderWGB",
+            "localizedDescription": "Generate electricity for love \u2764",
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/jjyd_2.0.1.png"
         },
         {
             "name": "ipaDownloadTool-2.1.1",
