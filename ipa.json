@@ -35,6 +35,18 @@
             "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/catvod_1.1.1.png"
         },
         {
+            "name": "ESign_5.0.0",
+            "bundleIdentifier": "xyz.yyyue.esign",
+            "version": "5.0.0",
+            "versionDate": "2024-01-17",
+            "versionDescription": "iOS supercharger for TrollStore.",
+            "size": 11133484,
+            "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/ESign_5.0.0.ipa",
+            "developerName": "CoderWGB",
+            "localizedDescription": "Generate electricity for love \u2764",
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/ESign.png"
+        },
+        {
             "name": "WiFiList",
             "bundleIdentifier": "com.itaysoft.wifilist",
             "version": "",
@@ -47,6 +59,18 @@
             "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/WiFiList.png"
         },
         {
+            "name": "YouTube_19.01.1",
+            "bundleIdentifier": "com.google.ios.youtube",
+            "version": "19.01.1",
+            "versionDate": "2024-01-17",
+            "versionDescription": "iOS supercharger for TrollStore.",
+            "size": 120712735,
+            "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/YouTube_19.01.1.ipa",
+            "developerName": "CoderWGB",
+            "localizedDescription": "Generate electricity for love \u2764",
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/YouTube_19.01.1.png"
+        },
+        {
             "name": "TrollApps_2.3b",
             "bundleIdentifier": "org.resonance.store",
             "version": "2.3b",
@@ -57,18 +81,6 @@
             "developerName": "CoderWGB",
             "localizedDescription": "Generate electricity for love \u2764",
             "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/TrollApps_2.3b.png"
-        },
-        {
-            "name": "ChangeAppLogo",
-            "bundleIdentifier": "com.xx.ios.app",
-            "version": "1.0",
-            "versionDate": "2024-01-10",
-            "versionDescription": "iOS supercharger for TrollStore.",
-            "size": 35967725,
-            "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/ChangeAppLogo.ipa",
-            "developerName": "CoderWGB",
-            "localizedDescription": "Generate electricity for love \u2764",
-            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/ChangeAppLogo.png"
         },
         {
             "name": "SimpleLive_1.4.7",
@@ -95,6 +107,18 @@
             "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/ProxyPin-Ios.png"
         },
         {
+            "name": "iBox_2.0.7",
+            "bundleIdentifier": "com.super.tvbox",
+            "version": "2.0.7",
+            "versionDate": "2024-01-17",
+            "versionDescription": "iOS supercharger for TrollStore.",
+            "size": 65916209,
+            "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/iBox_2.0.7.ipa",
+            "developerName": "CoderWGB",
+            "localizedDescription": "Generate electricity for love \u2764",
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/iBox_2.0.7.png"
+        },
+        {
             "name": "DMZJX_2.0.9",
             "bundleIdentifier": "com.xycz.dmzjx",
             "version": "2.0.9",
@@ -105,6 +129,18 @@
             "developerName": "CoderWGB",
             "localizedDescription": "Generate electricity for love \u2764",
             "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/DMZJX_2.0.9.png"
+        },
+        {
+            "name": "TikTok+_32.9.0",
+            "bundleIdentifier": "com.zhiliaoapp.musically",
+            "version": "32.9.0",
+            "versionDate": "2024-01-17",
+            "versionDescription": "iOS supercharger for TrollStore.",
+            "size": 240703879,
+            "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/TikTok+_32.9.0.ipa",
+            "developerName": "CoderWGB",
+            "localizedDescription": "Generate electricity for love \u2764",
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/TikTok+_32.9.0.png"
         },
         {
             "name": "yyd",
@@ -119,6 +155,18 @@
             "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/yyd.png"
         },
         {
+            "name": "InfusePro_7.6.6",
+            "bundleIdentifier": "com.firecore.infuse",
+            "version": "7.6.6",
+            "versionDate": "2024-01-17",
+            "versionDescription": "iOS supercharger for TrollStore.",
+            "size": 40956546,
+            "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/InfusePro_7.6.6.ipa",
+            "developerName": "CoderWGB",
+            "localizedDescription": "Generate electricity for love \u2764",
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/InfusePro_7.6.6.png"
+        },
+        {
             "name": "misaka_8.1.2Beta",
             "bundleIdentifier": "com.straight-tamago.misakaRS",
             "version": "8.1.2 Beta",
@@ -131,7 +179,7 @@
             "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/misaka_8.1.2Beta.png"
         },
         {
-            "name": "iPlay\u00ae_1.0",
+            "name": "\u5c0f\u70b9\u64ad\u653e\u5668",
             "bundleIdentifier": "io.bgpt.iplayr",
             "version": "1.0",
             "versionDate": "2024-01-10",
@@ -140,7 +188,19 @@
             "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/iPlay\u00ae_1.0.ipa",
             "developerName": "CoderWGB",
             "localizedDescription": "Generate electricity for love \u2764",
-            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/iPlay\u00ae_1.0.png"
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/iPlay_1.0.png"
+        },
+        {
+            "name": "YouTube_Music_6.34.1",
+            "bundleIdentifier": "com.google.ios.youtubemusic",
+            "version": "6.34.1",
+            "versionDate": "2024-01-17",
+            "versionDescription": "iOS supercharger for TrollStore.",
+            "size": 85369751,
+            "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/YouTube_Music_6.34.1.ipa",
+            "developerName": "CoderWGB",
+            "localizedDescription": "Generate electricity for love \u2764",
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/YouTube_Music_6.34.1.png"
         },
         {
             "name": "hgdj",
@@ -177,6 +237,18 @@
             "developerName": "CoderWGB",
             "localizedDescription": "Generate electricity for love \u2764",
             "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/iysx_6.6.3.png"
+        },
+        {
+            "name": "Filza_4.0",
+            "bundleIdentifier": "com.tigisoftware.Filza",
+            "version": "4.0",
+            "versionDate": "2024-01-17",
+            "versionDescription": "iOS supercharger for TrollStore.",
+            "size": 18063247,
+            "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/Filza_4.0.ipa",
+            "developerName": "CoderWGB",
+            "localizedDescription": "Generate electricity for love \u2764",
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/Filza_4.0.png"
         },
         {
             "name": "Shadowrocket_2.2.44",
