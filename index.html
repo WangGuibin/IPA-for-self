@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoderWGB's AppSource</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/element-ui@2.13.0/lib/theme-chalk/index.css"
+    />
+    <script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/element-ui/2.13.2/index.js"></script>
+  </head>
+
+  <body>
+    <style>
+      #app {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 5px;
+      }
+      .app-item {
+        margin: 20px;
+      }
+
+      .app-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .left-card {
+        display: flex;
+        flex-direction: row;
+      }
+      .app-icon {
+        height: 40px;
+        width: 40px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background-color: #409eff;
+      }
+      .app-info {
+        font-size: 12px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+      }
+      .info-text{
+        width: 100px;
+        white-space: word-wrap;
+        text-wrap: pretty;
+      }
+      .download {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-shrink: 0;
+      }
+      .button {
+        width: 60px;
+        text-align: center;
+        border-radius: 5px;
+        color: #fff;
+        background-color: #409eff;
+        cursor: pointer;
+        user-select: none;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        font-weight: bold;
+      }
+    </style>
+
+    <!-- run -->
+    <div id="app">
+      <div class="header">
+        <h3>CoderWGB's AppSource</h3>
+        <h5>均收集自互联网,仅用作学习研究之用~ 莫做他用</h5>
+        <div>{{dataSource.subtitle}}</div>
+        <div>{{dataSource.description}}</div>
+        <div>
+          <b>{{dataSource.message}}</b>
+        </div>
+      </div>
+      <div>
+        <el-card v-for="app in apps" :key="app.downloadURL" class="app-item">
+          <div class="app-container">
+            <div class="left-card">
+              <img :src="app.iconURL" class="app-icon"/>
+              <div class="app-info">
+                <div class="info-text">{{app.name}}</div>
+                <div class="info-text">{{app.bundleIdentifier}}</div>
+                <div class="info-text">{{dataSource.name}}</div>
+                <div class="info-text">
+                  {{app.version}} | {{calculateFileSize(app.size)}} |
+                  {{app.versionDate}}
+                </div>
+              </div>
+            </div>
+            <div class="download">
+              <div
+                class="button"
+                v-if="isSafari"
+                type="primary"
+                @click="TrollStoreInstall(app)"
+              >
+                巨魔安装
+              </div>
+              <div class="button" type="primary" @click="downloadIPA(app)">
+                下载
+              </div>
+            </div>
+          </div>
+        </el-card>
+      </div>
+    </div>
+    <script>
+      //检测当前环境是否为Safari浏览器
+      function isSafari() {
+        var isSafari = /^((?!chrome|android|crios|fxios).)*safari/i.test(
+          navigator.userAgent
+        );
+        return isSafari;
+      }
+
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            dataSource: {},
+            apps: [],
+            isSafari: isSafari(),
+          };
+        },
+        created() {
+          this.getAppList();
+        },
+        mounted() {},
+        methods: {
+          TrollStoreInstall(app) {
+            if (isSafari()) {
+              window.location.href = `apple-magnifier://install?url=${app.downloadURL}`;
+            } else {
+              this.$confirm(
+                `当前不是Safari浏览器,无法跳转到巨魔安装, 是否下载ipa文件自行安装?`,
+                "提示",
+                {
+                  confirmButtonText: "下载",
+                  cancelButtonText: "取消",
+                  type: "warning",
+                }
+              )
+                .then(() => {})
+                .catch(() => {});
+            }
+          },
+          downloadIPA(app) {
+            var a = document.createElement("a");
+            a.href = app.downloadURL;
+            a.download = `${app.name}.ipa`;
+            a.click();
+          },
+          calculateFileSize(size) {
+            const fileSize = (size / 1024.0 / 1024.0).toFixed(2);
+            if (fileSize == 0) {
+              return "--";
+            }
+            return fileSize + "MB";
+          },
+          ajaxGetData(url, cb) {
+            let request = new XMLHttpRequest();
+            request.open("GET", url, true);
+            request.onreadystatechange = function () {
+              if (this.readyState === 4 && this.status === 200) {
+                cb(this.responseText);
+              }
+            };
+            request.send();
+          },
+          getAppList() {
+            let that = this;
+            this.ajaxGetData(
+              "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/ipa.json",
+              function (data) {
+                that.$nextTick(() => {
+                  that.dataSource = JSON.parse(data);
+                  that.apps = that.dataSource.apps;
+                });
+              }
+            );
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
