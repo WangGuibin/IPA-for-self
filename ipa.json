@@ -191,6 +191,18 @@
             "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/misaka_8.1.2Beta.png"
         },
         {
+            "name": "iBox_2.0.9",
+            "bundleIdentifier": "com.super.tvbox",
+            "version": "2.0.9",
+            "versionDate": "2024-02-06",
+            "versionDescription": "iOS supercharger for TrollStore.",
+            "size": 67678538,
+            "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/iBox_2.0.9.ipa",
+            "developerName": "CoderWGB",
+            "localizedDescription": "Generate electricity for love \u2764",
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/iBox_2.0.7.png"
+        },
+        {
             "name": "\u5c0f\u70b9\u64ad\u653e\u5668",
             "bundleIdentifier": "io.bgpt.iplayr",
             "version": "1.0",
@@ -333,6 +345,30 @@
             "developerName": "",
             "localizedDescription": "",
             "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/ipaDownloadTool-2.1.1.png"
+        },
+        {
+            "name": "Shadowrocket_2.2.45",
+            "bundleIdentifier": "com.liguangming.Shadowrocket",
+            "version": "2.2.45",
+            "versionDate": "2024-02-06",
+            "versionDescription": "iOS supercharger for TrollStore.",
+            "size": 16604566,
+            "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/Shadowrocket_2.2.45.ipa",
+            "developerName": "CoderWGB",
+            "localizedDescription": "Generate electricity for love \u2764",
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/Shadowrocket_2.2.44.png"
+        },
+        {
+            "name": "LLMFarm-0.9.0",
+            "bundleIdentifier": "com.guinmoon.LLMFarm",
+            "version": "0.9.0",
+            "versionDate": "2024-02-06",
+            "versionDescription": "iOS supercharger for TrollStore.",
+            "size": 7629625,
+            "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.0/LLMFarm-0.9.0.ipa",
+            "developerName": "CoderWGB",
+            "localizedDescription": "Generate electricity for love \u2764",
+            "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/LLMFarm-0.9.0.png"
         },
         {
             "name": "Picsew_3.9.7_decrypted",
