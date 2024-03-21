@@ -11,6 +11,54 @@
   "tintColor": "#11DDCC",
   "apps": [
     {
+      "name": "silisili_3.0.0_",
+      "bundleIdentifier": "com.android.silisili",
+      "version": "3.0.0",
+      "versionDate": "2024-03-22",
+      "versionDescription": "iOS supercharger for TrollStore.",
+      "size": 46146844,
+      "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.1/silisili_3.0.0_.ipa",
+      "developerName": "CoderWGB",
+      "localizedDescription": "Generate electricity for love ❤",
+      "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/silisili_3.0.0_.png"
+    },
+    {
+      "name": "mtdm_1.0.2_",
+      "bundleIdentifier": "com.mitang.tv",
+      "version": "1.0.2",
+      "versionDate": "2024-03-22",
+      "versionDescription": "iOS supercharger for TrollStore.",
+      "size": 40508425,
+      "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.1/mtdm_1.0.2_.ipa",
+      "developerName": "CoderWGB",
+      "localizedDescription": "Generate electricity for love ❤",
+      "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/mtdm_1.0.2_.png"
+    },
+    {
+      "name": "iBox_2.1.0_fix",
+      "bundleIdentifier": "com.super.tvbox",
+      "version": "2.1.0",
+      "versionDate": "2024-03-21",
+      "versionDescription": "iOS supercharger for TrollStore.",
+      "size": 68873288,
+      "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.1/iBox_2.1.0_fix.ipa",
+      "developerName": "CoderWGB",
+      "localizedDescription": "Generate electricity for love ❤",
+      "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/iBox_2.1.0_fix.png"
+    },
+    {
+      "name": "Shadowrocket_2.2.46_",
+      "bundleIdentifier": "com.liguangming.Shadowrocket",
+      "version": "2.2.46",
+      "versionDate": "2024-03-21",
+      "versionDescription": "iOS supercharger for TrollStore.",
+      "size": 16602059,
+      "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.1/Shadowrocket_2.2.46_.ipa",
+      "developerName": "CoderWGB",
+      "localizedDescription": "Generate electricity for love ❤",
+      "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/Shadowrocket_2.2.46_.png"
+    },
+    {
       "name": "BL4K_1.1.7",
       "bundleIdentifier": "com.lookingpet.bl",
       "version": "1.1.7",
