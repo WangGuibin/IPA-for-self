@@ -11,6 +11,18 @@
   "tintColor": "#11DDCC",
   "apps": [
     {
+      "name": "catvod_1.1.4",
+      "bundleIdentifier": "com.github.catvod.app",
+      "version": "1.1.4",
+      "versionDate": "2024-04-01",
+      "versionDescription": "iOS supercharger for TrollStore.",
+      "size": 37641355,
+      "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.1/catvod_1.1.4.ipa",
+      "developerName": "CoderWGB",
+      "localizedDescription": "Generate electricity for love ❤",
+      "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/catvod_1.1.4.png"
+    },
+    {
       "name": "silisili_3.0.0_",
       "bundleIdentifier": "com.android.silisili",
       "version": "3.0.0",
