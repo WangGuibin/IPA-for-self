@@ -11,6 +11,42 @@
   "tintColor": "#11DDCC",
   "apps": [
     {
+      "name": "iBox_2.1.2",
+      "bundleIdentifier": "com.super.tvbox",
+      "version": "2.1.2",
+      "versionDate": "2024-04-25",
+      "versionDescription": "iOS supercharger for TrollStore.",
+      "size": 75573413,
+      "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.1/iBox_2.1.2.ipa",
+      "developerName": "CoderWGB",
+      "localizedDescription": "Generate electricity for love ❤",
+      "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/iBox_2.1.2.png"
+    },
+    {
+      "name": "HuggingChat-1.0.0",
+      "bundleIdentifier": "co.huggingface.chat-ui-ios",
+      "version": "1.0.0",
+      "versionDate": "2024-04-25",
+      "versionDescription": "iOS supercharger for TrollStore.",
+      "size": 1918651,
+      "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.1/HuggingChat-1.0.0.ipa",
+      "developerName": "CoderWGB",
+      "localizedDescription": "Generate electricity for love ❤",
+      "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/HuggingChat-1.0.0.png"
+    },
+    {
+      "name": "Delta_1.5",
+      "bundleIdentifier": "com.rileytestut.Delta",
+      "version": "1.5",
+      "versionDate": "2024-04-25",
+      "versionDescription": "iOS supercharger for TrollStore.",
+      "size": 48076470,
+      "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.1/Delta_1.5.ipa",
+      "developerName": "CoderWGB",
+      "localizedDescription": "Generate electricity for love ❤",
+      "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/Delta_1.5.png"
+    },
+    {
       "name": "catvod_1.1.4",
       "bundleIdentifier": "com.github.catvod.app",
       "version": "1.1.4",
