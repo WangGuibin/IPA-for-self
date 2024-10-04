@@ -11,6 +11,78 @@
   "tintColor": "#11DDCC",
   "apps": [
     {
+      "name": "GitHub_1.156.0_decrypted",
+      "bundleIdentifier": "com.github.stormbreaker.prod",
+      "version": "1.156.0",
+      "versionDate": "2024-10-04",
+      "versionDescription": "iOS supercharger for TrollStore.",
+      "size": 62803924,
+      "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.1/GitHub_1.156.0_decrypted.ipa",
+      "developerName": "CoderWGB",
+      "localizedDescription": "Generate electricity for love ❤",
+      "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/GitHub_1.156.0_decrypted.png"
+    },
+    {
+      "name": "LiveContainer_2.0",
+      "bundleIdentifier": "com.kdt.livecontainer",
+      "version": "2.0",
+      "versionDate": "2024-10-04",
+      "versionDescription": "iOS supercharger for TrollStore.",
+      "size": 233319,
+      "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.1/LiveContainer_2.0.ipa",
+      "developerName": "CoderWGB",
+      "localizedDescription": "Generate electricity for love ❤",
+      "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/LiveContainer_2.0.png"
+    },
+    {
+      "name": "SFSymbols_51.1",
+      "bundleIdentifier": "com.82flex.SFSymbolsPreview",
+      "version": "51.1",
+      "versionDate": "2024-10-04",
+      "versionDescription": "iOS supercharger for TrollStore.",
+      "size": 1241438,
+      "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.1/SFSymbols_51.1.ipa",
+      "developerName": "CoderWGB",
+      "localizedDescription": "Generate electricity for love ❤",
+      "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/SFSymbols_51.1.png"
+    },
+    {
+      "name": "TrollFools_2.6",
+      "bundleIdentifier": "wiki.qaq.TrollFools",
+      "version": "2.6",
+      "versionDate": "2024-10-04",
+      "versionDescription": "iOS supercharger for TrollStore.",
+      "size": 5204008,
+      "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.1/TrollFools_2.6.ipa",
+      "developerName": "CoderWGB",
+      "localizedDescription": "Generate electricity for love ❤",
+      "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/TrollFools_2.6.png"
+    },
+    {
+      "name": "Geph_0.8_decrypted",
+      "bundleIdentifier": "geph.io",
+      "version": "0.8",
+      "versionDate": "2024-10-04",
+      "versionDescription": "iOS supercharger for TrollStore.",
+      "size": 22883955,
+      "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.1/Geph_0.8_decrypted.ipa",
+      "developerName": "CoderWGB",
+      "localizedDescription": "Generate electricity for love ❤",
+      "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/Geph_0.8_decrypted.png"
+    },
+    {
+      "name": "iBox_2.1.6",
+      "bundleIdentifier": "com.super.tvbox",
+      "version": "2.1.6",
+      "versionDate": "2024-10-04",
+      "versionDescription": "iOS supercharger for TrollStore.",
+      "size": 77990252,
+      "downloadURL": "https://github.com/WangGuibin/IPA-for-self/releases/download/1.0.1/iBox_2.1.6.ipa",
+      "developerName": "CoderWGB",
+      "localizedDescription": "Generate electricity for love ❤",
+      "iconURL": "https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/icons/iBox_2.1.6.png"
+    },
+    {
       "name": "iBox_2.1.2",
       "bundleIdentifier": "com.super.tvbox",
       "version": "2.1.2",
